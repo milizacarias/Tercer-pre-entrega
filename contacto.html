@@ -54,6 +54,70 @@
         </div>
       </nav>
     </header>
+    <main class="container">
+      <h1 class="text-center py-5 display-6">Contacto</h1>
+
+      <div class="row">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+        <label for="apellido">APELLIDO</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido"
+        />
+        <div class="form-check">
+          <p>SEXO</p>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Hombre
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked=""
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            Mujer
+          </label>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected="">COMO LLEGASTE A MI WEB</option>
+          <option value="1">Te vi en Instagram</option>
+          <option value="2">Te vi en Facebook</option>
+          <option value="3">Te vi en Tiktok</option>
+          <option value="3">Te vi en una pubicidad</option>
+          <option value="3">Por una amiga</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Dejame tu mensaje</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div>
+          <input
+            class="btn btn-primary text-white"
+            type="submit"
+            value="Enviar"
+          />
+        </div>
+      </div>
+    </main>
     <footer class="container-fluid bg-secondary text-white text-center">
       <p>seguime en las redes</p>
       <ul>
